@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0px auto;
+}
+
+header {
+  background-color: #f4d050;
+  padding: 20px 20px;
+}
+header .main .logo {
+  width: 15%;
+}
+header .main .logo .image {
+  display: flex;
+  align-items: center;
+}
+header .main .logo .image span {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  padding-left: 12px;
+}
+
+.note-section {
+  padding: 50px 0px 25px 0px;
+}
+.note-section .container .row {
+  display: flex;
+  justify-content: center;
+}
+.note-section .container .row .main {
+  box-shadow: 10px 10px 10px #b6bab6;
+}
+.note-section .container .row .main .title input {
+  border: 0;
+  width: 300px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: inherit;
+  outline: none;
+}
+.note-section .container .row .main .write-note textarea {
+  border: 0;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: inherit;
+  outline: none;
+}
+.note-section .container .row .main .btn {
+  display: flex;
+  justify-content: end;
+}
+.note-section .container .row .main .btn button {
+  border: 0px;
+}
+.note-section .container .row .main .btn button i {
+  padding: 12px 8px;
+  color: #f7b61e;
+  font-size: 20px;
+  font-weight: 900;
+}
+.note-section .container .row .main ::placeholder {
+  color: #757575;
+}
+
+.card-section .container .row .all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 0px;
+}
+.card-section .container .row .all-cards .card {
+  width: 25%;
+  padding: 12px;
+}
+.card-section .container .row .all-cards .card .content {
+  padding: 12px;
+  background-color: #fff1bd;
+  border-radius: 12px;
+  min-height: 150px;
+  position: relative;
+}
+.card-section .container .row .all-cards .card .content h2 {
+  text-align: center;
+}
+.card-section .container .row .all-cards .card .content p {
+  padding: 8px;
+}
+.card-section .container .row .all-cards .card .content .delete {
+  position: absolute;
+  bottom: 20px;
+  left: 49%;
+}
+.card-section .container .row .all-cards .card .content .delete button {
+  border: 0px;
+  cursor: pointer;
+}
+.card-section .container .row .all-cards .card .content .delete button i {
+  color: red;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #f7b61e;
+  padding: 5px 0px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+footer .main .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .main .copyright span {
+  color: white;
+}/*# sourceMappingURL=add.css.map */
